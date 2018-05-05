@@ -39,3 +39,5 @@
     beautifiers: ["Prettier"]
     indent_style: "space"
     indent_size: 2
+  PHP:
+    beautifiers: ["PHP-CS-Fixer"]
