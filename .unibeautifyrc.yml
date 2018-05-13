@@ -1,0 +1,43 @@
+---
+  HTML:
+    beautifiers: ["JS-Beautify", "Pretty Diff"]
+    brace_style: "collapse"
+    indent_style: "space"
+    indent_scripts: "normal"
+    indent_size: 2
+    max_preserve_newlines: 1
+    preserve_newlines: true
+    wrap_line_length: 0
+    indent_inner_html: true
+  HMTL+ERB:
+    beautifiers: ["Pretty Diff"]
+    indent_style: "space"
+    indent_size: 4
+  CSS:
+    beautifiers: ["JS-Beautify", "Pretty Diff", "Prettier"]
+    indent_style: "space"
+    indent_size: 2
+    preserve_newlines: true
+  JavaScript:
+    beautifiers: ["JS-Beautify", "Prettier"]
+    indent_style: "space"
+    indent_size: 2
+    indent_level: 0
+    preserve_newlines: true
+    max_preserve_newlines: 2
+    jslint_happy: true
+  Java:
+    beautifiers: ["Pretty Diff"]
+    indent_class: true
+    indent_style: "tab"
+    indent_size: 1
+  Markdown:
+    beautifiers: ["Prettier"]
+    indent_style: "space"
+    indent_size: 2
+  Vue:
+    beautifiers: ["Prettier"]
+    indent_style: "space"
+    indent_size: 2
+  PHP:
+    beautifiers: ["PHP-CS-Fixer"]
