@@ -1,5 +1,7 @@
 export default {
-  data : function() {
-    return {text: 'Hello, world!'}
+  data: function() {
+    return {
+      text: "Hello, world!"
+    };
   }
-}
+};

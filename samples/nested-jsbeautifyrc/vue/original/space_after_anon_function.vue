@@ -1,9 +1,9 @@
 <script>
 export default {
-  data: function () {
+  data: function() {
     return {
-      text: 'Hello, world!'
-    }
+      text: "Hello, world!"
+    };
   }
-}
+};
 </script>

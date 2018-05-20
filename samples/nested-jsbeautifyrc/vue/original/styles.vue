@@ -20,7 +20,9 @@ nav {
     margin: 0;
     padding: 0;
   }
-  li { display: inline-block; }
+  li {
+    display: inline-block;
+  }
   a {
     display: block;
   }

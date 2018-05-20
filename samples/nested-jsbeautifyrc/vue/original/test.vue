@@ -9,11 +9,11 @@
 <script>
 export default {
   data: function() {
-return {
-  text: 'Hello, world!'
-}
+    return {
+      text: "Hello, world!"
+    };
   }
-}
+};
 </script>
 
 <style lang="sass">
@@ -28,7 +28,9 @@ nav {
     margin: 0;
     padding: 0;
   }
-  li { display: inline-block; }
+  li {
+    display: inline-block;
+  }
   a {
     display: block;
   }

@@ -10,10 +10,10 @@
 export default {
   data: function() {
     return {
-      text: 'Hello, world!'
-    }
+      text: "Hello, world!"
+    };
   }
-}
+};
 </script>
 
 <style lang="sass">
@@ -24,15 +24,15 @@ export default {
 
 <style lang="scss">
 nav {
-    ul {
-        margin: 0;
-        padding: 0;
-    }
-    li {
-        display: inline-block;
-    }
-    a {
-        display: block;
-    }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+  }
+  a {
+    display: block;
+  }
 }
 </style>
