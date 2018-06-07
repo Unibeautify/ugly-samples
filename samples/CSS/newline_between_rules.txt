@@ -1,0 +1,4 @@
+.selector-1,
+.selector-2 {
+    color: green; background-color: blue;
+}
