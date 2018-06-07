@@ -1,0 +1,19 @@
+{
+  "name": "ugly-samples",
+  "version": "0.0.1",
+  "description": "Ugly samples for Unibeautify",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unibeautify/ugly-samples.git"
+  },
+  "keywords": [],
+  "author": "Glavin Wiechert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Unibeautify/ugly-samples/issues"
+  },
+  "homepage": "https://github.com/Unibeautify/ugly-samples",
+}
