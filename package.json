@@ -1,6 +1,6 @@
 {
   "name": "@unibeautify/ugly-samples",
-  "version": "0.1.0-a730e90",
+  "version": "0.1.0",
   "description": "Ugly samples for Unibeautify",
   "main": "index.js",
   "publishConfig": {

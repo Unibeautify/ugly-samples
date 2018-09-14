@@ -1,6 +1,7 @@
 language: node_js
 node_js:
   - node
+before_deploy: "./scripts/set-deploy-version.sh"
 deploy:
   provider: npm
   email: glavin.wiechert@gmail.com
@@ -9,4 +10,4 @@ deploy:
   on:
     repo: Unibeautify/ugly-samples
     branch: master
-    tags: true
+    tags: false
