@@ -1,8 +1,11 @@
 {
-  "name": "ugly-samples",
-  "version": "0.0.1",
+  "name": "@unibeautify/ugly-samples",
+  "version": "0.1.0",
   "description": "Ugly samples for Unibeautify",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

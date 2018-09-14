@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - node
+deploy:
+  provider: npm
+  email: glavin.wiechert@gmail.com
+  api_key:
+    secure: hdOnGy/gTRZEv12nscShzmxGs5gDOuU9lSOdHgeAP3R/gUXdjHk/eYmFPZoxEZbakQSZmLdhxhH/I8j2pXEw+jGlt7nKORiVwHMvi44AyIJRt+bCVgxqnuqTgzSFdM12l35jjq5KSoXGa52MNPTAveHvtvOWziWuNmGVfyKbDK4OmGiD4axxpK8i9jLEYmP9lZ0c3mLifrVvyhMgPDnQwoxqbh6e0cCb9Hq5MjOFPcMBtTPdggvshF2WD2ONVIAi3TsTXFavHgeJq99qqAwBap9firrQjYluoM+vBuNthLo9sFtgU+2R25mnV/82VtOdg9xGPPs7yyLsP+6bTMBPgCIGTTjU7hEXypUuRdcufkxsmwOLRtw6HjPqrMlm/ZA+6hdRQFXsw0OplzRx7g7g8f19MpELqMCUIynadlYD5KyufYct8G/GKa/Tvt0MTtEllzYL26Zw7g4X1kzCvY3rZybY4tRzvG8PTNHjmW58MPJYiBIclKm9+M073v232OOhAxrDMwmjEiLpuLq5DSEnor6pUWnMeN9nj5lFAdOmjkkMe05b0p1KbCGsSxJqGQKcPYlTw9gIShCOxybwI2WNf6LNYS4fDN/+RPNu0t9a4jqJdfWgngYezyS3WydLyvEjIQCwn3vWC5wR3tIAaaPErevVYwcg8hyTwl3M3VN91Vw=
+  on:
+    repo: Unibeautify/ugly-samples
+    branch: master
+    tags: true

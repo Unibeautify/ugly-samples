@@ -1,1 +1,1 @@
-module.exports = __dirname + "/samples/"
+module.exports = __dirname + "/samples/";
