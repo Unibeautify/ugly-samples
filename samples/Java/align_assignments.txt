@@ -1,0 +1,7 @@
+public class Sample {
+  public static void main(String[] args) {
+    int a = 3;
+    int A = 7;
+    String one = "", two = "", three = "";
+  }
+}

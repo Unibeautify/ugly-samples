@@ -1,6 +1,12 @@
-const fun1 = function(arg1, arg2) {
-}
-const fun2 = function(arg1,arg2) {
-}
-const fun3 = function( arg1, arg2 ) {
-}
+const anonymousFunc1 = function (arg1) {}
+const anonymousFunc2 = function(arg1) {}
+const anonymousFunc3 = function(arg1, arg2) {}
+const anonymousFunc4 = function(arg1,arg2) {}
+const anonymousFunc5 = function( arg1, arg2 ) {}
+const anonymousFunc6 = function() {}
+function namedFunc1 (arg1) {}
+function namedFunc2(arg1) {}
+function namedFunc3(arg1, arg2) {}
+function namedFunc4(arg1,arg2) {}
+function namedFunc5( arg1, arg2 ) {}
+function namedFunc6() {}

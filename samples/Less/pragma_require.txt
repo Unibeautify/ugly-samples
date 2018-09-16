@@ -1,0 +1,10 @@
+@primary:  green;
+@secondary: blue;
+
+.section {
+@color: primary;
+
+.element {
+color: @@color;
+}
+}

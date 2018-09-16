@@ -1,0 +1,2 @@
+String val1 = a != null ? "yes" : "no";
+String val2 = a != null ? ( b != null ? "yes" : "no") : "maybe";

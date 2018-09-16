@@ -1,0 +1,6 @@
+
+.class1 {
+
+  background-color: red;
+
+}

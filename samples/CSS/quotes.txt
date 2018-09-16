@@ -1,0 +1,7 @@
+.name::before {
+  content: "Before: ";
+}
+
+.name::after {
+  content: '...';
+}
