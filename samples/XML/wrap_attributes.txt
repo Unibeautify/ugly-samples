@@ -1,0 +1,7 @@
+<b data-foo="" data-bar=""></b>
+<div data-foo="" data-bar=""></div>
+<span data-foo="" data-bar=""></div>
+
+<input class="input is-small" type="text" v-model="domainFilter" placeholder="search">
+
+<input type="hidden" name="theName" value="">

@@ -1,0 +1,5 @@
+.class1 {
+/* comment 1 */
+  background-color: red;
+  /* comment 2 */
+}

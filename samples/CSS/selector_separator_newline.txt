@@ -1,0 +1,15 @@
+.selector-1,
+.selector-2 {
+  .nested-selector-1, .nested-selector-2 {
+    color: red;
+  }
+}
+
+a:first-child, a:first-child {
+  color: red;
+
+  div:first-child,
+  div:hover {
+    color: black;
+  }
+}

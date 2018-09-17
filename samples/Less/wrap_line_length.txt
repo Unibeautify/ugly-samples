@@ -1,0 +1,3 @@
+.fixedHeaderContainer.sticky header > a img, .separateOnPageNav .fixedHeaderContainer header > a img {
+  height: 30px;
+}

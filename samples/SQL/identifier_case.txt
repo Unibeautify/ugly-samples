@@ -1,5 +1,5 @@
 SELECT *
-FROM users u
-JOIN users_permission up ON u.user_id = up.user_id
-WHERE u.user_id = 1
-  AND up.permission_id = 2;
+from USERS u
+Join Users_Permission up On U.User_Id = up.user_id
+where u.USER_ID = 1
+  AND U.Permission_id = 2;

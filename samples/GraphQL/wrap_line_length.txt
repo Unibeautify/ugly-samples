@@ -1,0 +1,14 @@
+{
+  iLoveVeryLongQueryNames(longArg1: "string", anotherArg: 123, tooManyArgs: true) {
+    field1
+    field2 {
+      nestedField1
+      nestedField2 {
+        doubleNestedField1
+        doubleNestedField2 {
+          tripleNestedField1
+        }
+      }
+    }
+  }
+}
