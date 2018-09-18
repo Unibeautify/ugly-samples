@@ -1,7 +1,7 @@
 language: node_js
 node_js:
 - node
-before_deploy: "./scripts/set-deploy-version.sh"
+before_deploy: "./scripts/bump-deploy-version.sh"
 deploy:
   provider: npm
   email: glavin.wiechert@gmail.com
