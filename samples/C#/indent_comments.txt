@@ -1,0 +1,12 @@
+using System;
+
+  // this is a comment
+class Program
+{
+    // this is a comment
+static void Main()
+{
+        // this is a comment
+Console.WriteLine("Hello, world!");
+}
+}

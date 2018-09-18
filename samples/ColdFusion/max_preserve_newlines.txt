@@ -1,0 +1,32 @@
+// Any variable set here can be used by all pages
+// Start session management. Used to track session variables
+
+
+
+
+
+
+
+<cfset this.sessionManagement = true>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Start client management. Used to track client variables
+
+
+
+<cfset this.clientmanagement = true>
+<cfset this.name = "Name of your application">

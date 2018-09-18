@@ -1,0 +1,10 @@
+using System;
+
+class Program
+{
+static void iLoveVeryLongRunOnFunctioNames(string longArg1, string anotherArg, string tooManyArgs)
+{
+Console.WriteLine("Hello, world!");
+}
+}
+

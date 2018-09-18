@@ -1,0 +1,15 @@
+// This is applied to any element with the class attribute assigned to "container"
+".container": {
+    backgroundColor:"white"
+},
+// This is applied to all Labels in the view
+"Label": {
+    width: Ti.UI.SIZE,
+    height: Ti.UI.SIZE,
+    color: "#000", // black
+    transform: Alloy.Globals.rotateLeft // value is defined in the alloy.js file     
+}, 
+// This is only applied to an element with the id attribute assigned to "label"
+"#label": {
+    color: "#999" /* gray */
+}

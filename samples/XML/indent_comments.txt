@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!-- Title -->
+        <meta charset="utf-8">
+        <title><%= title %></title>
+    </head>
+    <body></body>
+</html>

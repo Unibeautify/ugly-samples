@@ -1,0 +1,9 @@
+using System;
+
+class Program
+{
+static void Main()
+{
+ui().s2p().mm().supplinvoice().manage().util().Constants().blabla();
+}
+}

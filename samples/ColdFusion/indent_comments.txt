@@ -1,0 +1,28 @@
+        // Any variable set here can be used by all pages
+    // Start session management. Used to track session variables
+
+<cfset this.sessionManagement = true>
+
+        // Start client management. Used to track client variables
+
+<cfset this.clientmanagement = true>
+<cfset this.name = "Name of your application">
+
+
+    <!--- On Request Start Function--->
+// is called when user request any web page.
+
+<cffunction name="onRequestStart" output="true" returntype="void">
+<cfset request.datasource = "companyk1" >
+<cfset request.companyname = "Company K1 - HQ">
+
+        /* call your header file everytime when user access webpage. So you do not have to include in every page*/
+<cfinclude template="companyk1_header.cfm">
+
+</cffunction>
+
+    /*On request end function is used to called end the end of webpage access */
+
+<cffunction name="onRequestEnd" returntype="void" output="true">
+<cfinclude template="companyk1_footer.cfm">
+</cffunction>

@@ -1,0 +1,5 @@
+int x = 20, y = 10;
+
+var result = x > y ? x : y;
+
+Console.WriteLine(result);

@@ -1,0 +1,5 @@
+<div id="app-2">
+  <span v-bind:title="message">
+    Some text that should not wrap at all. Some text that should not wrap at all. Some text that should not wrap at all. Some text that should not wrap at all. Some text that should not wrap at all. Some text that should not wrap at all. Some text that should not wrap at all.
+  </span>
+</div>

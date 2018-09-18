@@ -1,0 +1,15 @@
+<cfquery name="getUser" datasource="#request.datasource#">
+select ID, LastName, FirstName, FirstTime from profile
+where Username = 'gaurang' and Password= 123456
+</cfquery>
+
+<body&gy;
+<cfoutput query=”getUser”>
+<table>
+<tr>
+<td>#getUser.ID#</td>
+<td>#getUser.FirstName#</td>
+<td>#getUser.LastName#</td>
+<td>#getUser.FirstTime#</td>
+</cfoutput>
+</body&gy;

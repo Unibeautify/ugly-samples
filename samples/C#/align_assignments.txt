@@ -1,0 +1,11 @@
+using System;
+
+namespace VariableDefinition {
+   class Program {
+      static void Main(string[] args) {
+         short a = 10, a1 = 11, a2 = 22;
+         int b = 20, b1 = 21, b2 = 32;
+         double c = a + b;
+      }
+   }
+}
