@@ -1,0 +1,4 @@
+@primary:  green;       
+.section {              
+  @color: primary;      
+}                       
