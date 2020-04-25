@@ -3,4 +3,11 @@ if (a) {
   function foo(d) {
       e = f;
   }
+  
+  function bar(g) { h = i; }
+  
+  function baz(j) 
+  { 
+    k = l; 
+  }
 }
