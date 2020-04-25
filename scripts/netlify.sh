@@ -8,13 +8,9 @@ git clone https://github.com/Unibeautify/website.git
 
 cd website/
 
-mkdir -p node_modules/@unibeautify/
+# Swap in ugly-samples dependencies
+yarn install
+npm link ../
 
-ln -s ../ ./node_modules/@unibeautify/ugly-samples
-
-ls -la
-
+# Run Website build script
 ./scripts/netlify.sh
-
-
-# git clone https://github.com/Unibeautify/website.git && cd website/ && mkdir -p node_modules/@unibeautify/ && ln -s ../ ./node_modules/@unibeautify/ugly-samples && ls -la && ./scripts/netlify.sh
