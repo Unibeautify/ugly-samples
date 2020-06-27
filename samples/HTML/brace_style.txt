@@ -1,8 +1,7 @@
 <div>
-<h1>Unformatted</h1>
-<div>
-<span>Un<span>formatted</span></span>
+<img src="images/homepage/beef-desktop-tablet@2x.jpg" alt="beef"><hr><!--
+--><div class="text">
+<h3>Rosemary Filet Mignon</h3>
+<p>Our prime beef served to your taste with a delicious choice of seasonal sides.</p>
 </div>
-<span><span>For</span><span>mat</span><span>ted</span></span>
-<div><div>For</div><div>mat</div><div>ted</div></div>
 </div>
